@@ -1,0 +1,204 @@
+ALL IN ONE
+
+
+
+"1. State whether the given statement is true or false. !DOCTYPE is case sensitive”.
+a) True
+b) False
+ Answer: b
+Explanation: XML is a case sensitive while HTML is case insensitive. So the declaration “!DOCOTYPE” is case sensitive in XML and it is not case sensitive in HTML, we can write the “!DOCTYPE” declaration in both lowercase and uppercase, thus both are valid.
+
+
+
+
+
+
+
+"
+
+"2. Choose the correct statement.
+a) In traditional XHTML close tag for some elements is optional but not encouraged
+b) In traditional HTML close tag for some elements is optional but not encouraged
+c) In both traditional XHTML and HTML close tag for some elements is not optional
+d) In both traditional XHTML and HTML close tag for some elements is optional
+ Answer: b
+Explanation: In XHTML all elements must always be closed and empty elements also be closed. XHTML close tags are not optional neither they are encouraged. HTML is case insensitive and thus closing tags for some elements including empty elements is optional and is ignored by browsers.
+"
+
+"3. Which of the following XHTML doctype declaration contains all HTML elements and attributes, including presentational and deprecated elements (like font) but not framesets?
+a) !DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”
+b) !DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”
+c) !DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Frameset//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd”
+d) <!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.1//EN” “http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd”>
+ Answer: b
+Explanation: The !DOCTYPE declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. The XHTML doctype declaration “!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”” is of XHTML 1.0 strict, “!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”” is of XHTML 1.0 transitional, “!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Frameset//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd”” is of XHTML 1.0 frameset and “<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.1//EN” “http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd”>” is of XHTML 1.1.
+"
+
+"4. Which of the following is not a difference between HTML and XHTML?
+a) Charset in html is “text/html” where as in xhtml it is “application/xml+xhtml”
+b) Charset in both html and xhtml is “text/html”
+c) Tags and attributes are case-insensitive in HTML but not in XHTML
+d) Special characters must be escaped using character entities in XHTML unlike HTML
+ Answer: b
+Explanation: HTML is case insensitive while XHTML is case sensitive. In XHTML, special characters can be escaped using character entites but not in HTML. Charset in HTML is “text/html” where as it is “application/xml+xhtml” for XHTML.
+"
+
+"5. What indicates the content in file is HTML when delivered on the network.
+a) The extension of the file “.html”
+b) The “content-type” header
+c) Both “.html” extension and “content-type” header
+d) The “content_type” header
+ Answer: b
+Explanation: Content-type: header indicates the content in the file is HTML and we can see file content through it when delivered on the network. “.html” is the file extension for HTML.
+
+
+
+
+
+
+
+"
+
+"6. State whether the given statement is true or false. “We can intermix XHTML and HTML 4.01 documents”
+a) True
+b) False
+ Answer: b
+Explanation: HTML is not in XML format. You have to make the changes necessary to make the document proper XML before you can get it accepted as XML.
+"
+
+"7. HTML and XHTML stands for ______
+a) Hyper Text Markup Language and Extensible HyperText Markup Language
+b) Hyper Text Markup Language and Extensible HyperText Marking Language
+c) Hyper Text Marking Language and EXtensible HyperText Marking Language
+d) Hyper Text Marking Language and Extensible HyperText Markup Language
+ Answer: a
+Explanation: HTML stands for “Hyper Text Markup Language” and XHTML stand for “Extensible HyperText Markup Language”.
+"
+
+"8. Choose the correct tag for the largest heading in HTML.
+a) h6
+b) heading
+c) h1
+d) head
+ Answer: c
+Explanation: Headings in HTML starts from <h1> to <h6> in which <h1> heading is the largest one and <h6> is smallest one among those. The heading tags are <h1> <h2> <h3> <h4> <h5> and <h6> that are used for the creations of headings.
+"
+
+"9. Which of the following are table tags?
+a) table, thead, tr, td
+b) colspan, table, tr
+c) table, tt, tr, td
+d) thead, colspan, td, tr
+ Answer: a
+Explanation: Table has different tags such as table, thead, tr, td, etc whereas colospan is an attribute of table.
+"
+ALL IN ONE
+
+This set of HTML Multiple Choice Questions & Answers (MCQs) focuses on “Web Browsers”.
+
+"1. A Rendering engine is not responsible for ________
+a) parsing the markup content (HTML)
+b) parsing style information (CSS, XSL, and so on)
+c) generating a visual presentation of the formatted content including media files referenced
+d) parsing style information (CSS only)
+View Answer Answer: d
+Explanation: A rendering engine is a software that draws text and images on the screen. The engine draws structured text from a document (HTML, XML) and formats it properly based on the given style declarations (CSS, XSL, etc). The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user’s device.
+
+advertisement
+
+
+
+
+
+"
+
+"2. Firefox uses _________ rendering engine.
+a) WebKit
+b) Gecko
+c) Trident
+d) Presto
+View Answer Answer: b
+Explanation: Gecko is a web browser engine used in many applications developed by Mozilla Foundation and the Mozilla Corporation as well as in many other open source software projects. Gecko is free and open-source software subject to the terms of the Mozilla Public License version 2.
+"
+
+"3. State true or false. It is faster to render HTML and CSS than to interpret and execute JavaScript.
+a) True
+b) False
+View Answer Answer: a
+Explanation: When it comes to ordering your CSS and JavaScript, you want your CSS to come first. The reason is that the rendering thread has all the style information it needs to render the page. If the JavaScript includes come first, the JavaScript engine has to parse it all before continuing on to the next set of resources.
+"
+
+"4. What is the use of “defer” attribute?
+a) It defers rendering of html page
+b) It defers script execution until the page has been rendered
+c) It defers rendering of css attributes
+d) It is only for internal scripts
+View Answer Answer: b
+Explanation: The defer attribute is a boolean attribute. The script is executed after the page has finished parsing. The defer attribute is used if and only if there is src attribute. Defer is for external not internal scripts.
+
+advertisement
+
+
+
+
+
+"
+
+"5. Which of the following statements is false?
+a) async and defer attributes of script tag execute before the DOMContentLoaded event
+b) defer executes each script sequentially
+c) async executes each script when it is ready
+d) all older browsers supports async attribute
+View Answer Answer: d
+Explanation: In async attribute, the script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing). Defer, the Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded event. Older browsers doesn’t support async attribute. "
+
+"6. Which of the following is used to read a HTML page and render it?
+a) Web browser
+b) Web server
+c) Web matrix
+d) Web network
+View Answer Answer: a
+Explanation: A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web. A web server process, store and display output to client as per their request. Web matrix is a discontinued cloud-connected website builder and HTML editor for Windows.  
+"
+
+"7. Which of the following is the first web browser?
+a) Nexus
+b) Netscape Navigator
+c) Internet Explorer
+d) Mosaic
+View Answer Answer: a
+Explanation: The first web browser was invented in 1990 called World Wide Web which was later renamed to Nexus. In 1995, a graphical web browser named Internet Explorer was developed. The Netscape is a web browser  produced by Netscape Communications. NCSA Mosaic, or Mosaic, is the web browser which in turn popularized World Wide Web.
+
+advertisement
+
+
+
+
+
+"
+
+"8. Who created the first web browser
+a) Tim Berners Lee
+b) Jacobs, Lan
+c) Marc Andeersen
+d) Mozilla foundation
+View Answer Answer: a
+Explanation: Sir Timothy John “Tim” Berners-Lee, also known as TimBL, is an English computer scientist, best known as the inventor of the World Wide Web. He made a proposal for an information management system in March 1989, and he implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet sometime around mid-November of that same year.
+"
+
+"9. Nexus is first graphical web browser.
+a) True
+b) False
+View Answer Answer: b
+Explanation: Mosaic was the first browser to display images inline with text instead of displaying images in a separate window, while often described as the first graphical web browser.  
+"
+
+"10. The open source software version of netscape is _________
+a) Chrome
+b) Mozilla
+c) Internet Explorer
+d) Erwise
+View Answer Answer: b
+Explanation: On February 23, 1998, Netscape Communications Corporation created a project called Mozilla to co-ordinate the development of the Mozilla Application Suite, the open source version of Netscape’s internet software, Netscape Communicator. 
+                 .
+Sanfoundry Global Education & Learning Series – HTML."
